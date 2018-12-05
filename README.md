@@ -24,3 +24,15 @@ batch_size = 8192: 8s, GPU_util: 90%+ (*Best*)
 batch_size = 16284: 7s, GPU_util: 90% + 
 
 batch_size = 32568, 32s, GPU_util: ~100% (beginning is slow)  
+
+batch_size | Time | GPU_Util 
+------------ | ------------- | ----------
+32(default) | ~10m | 30% 
+128| ~300s | 
+256| 160s | 
+1024 | 46s |
+2048 | 24s | 70%
+4096 | 14s | 86%
+8192 | 8s | 90%+
+16284 | 7s | 90% 
+32568 | 32s | 100% (slow starting) 
