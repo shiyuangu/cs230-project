@@ -1,6 +1,6 @@
 # cs230-project
 Duplicate_Detection
-* Performance Tunning 
+## Performance Tunning 
 
 For siamese+LSTM, time is  for training 1 epoch (323232 training examples), GPU-Util is from nvidia-smi: 
 
