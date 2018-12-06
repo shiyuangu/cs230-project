@@ -19,6 +19,6 @@ batch_size | Time | GPU_Util
 1024 | 46s |
 2048 | 24s | 70%
 4096 | 14s | 86%
-8192 | 8s (best) | 90%+
+8192 | 8s (**best**) | 90%+
 16284 | 7s | 90% 
 32568 | 32s | 100% (slow starting) 
