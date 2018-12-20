@@ -1,5 +1,11 @@
 # cs230-project
 Duplicate_Detection
+## Models
+* word2vec_v1: simple mean of word vectors.
+* word2vec_v2: simple mean of word vectors with manually chosen stop words.
+* word3vec_v3: tf-idf weighted mean of word vectors with the same stop words as word2vec_v1
+
+
 ## Performance Tunning 
 
 For siamese+LSTM, time is  for training 1 epoch (323232 training examples), GPU-Util is from nvidia-smi. This timing result is for model.fit(), and model.predict(x, batch_size) is also sensitive to the batch_size.  
