@@ -4,7 +4,13 @@ Duplicate_Detection
 * word2vec_v1: simple mean of word vectors.
 * word2vec_v2: simple mean of word vectors with manually chosen stop words.
 * word3vec_v3: tf-idf weighted mean of word vectors with the same stop words as word2vec_v1
-
+* siamese: siamese network which generalizes tf-idf weighted mean; the weights are learned. 
+* siamese+LSTM_v1: compared to siamese, replace the simply summation with LSTM and the weights are fixed to all ones; 
+* siamese+LSTM_v2: compared to siamese_v1, the  weights are learned. 
+* siamese+LSTM_v3: compared to siamese_v2, use l2-regulization instead of early stopping for weights. Performance became worse.
+* siamese+LSTM_v1+LSTM: add another LSTM layer on top of  siamese+LSTM_v1. 
+* siamese+LSTM_v2+LSTM: add another LSTM layer on top of  siamese+LSTM_v2.
+* siamese+biLSTM+LSTM: compared with siamese+LSTM_v2+LSTM, replaced the first LSTM with bi-LSTM. 
 
 ## Performance Tunning 
 
